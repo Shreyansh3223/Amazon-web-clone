@@ -9,6 +9,8 @@
     width: 100%;
     background-color: #0F1111;
     color: #FFFFFF;
+    display: flex;
+    align-items: center;
 }
 
 .nav-logo {
@@ -27,6 +29,33 @@
     border: 1px solid transparent;
 }
 
-.border:hover{
+.border:hover {
     border: 1px solid white;
+}
+
+/**Box-2**/
+
+
+.add-first {
+    font-size: 0.75rem;
+    color: #CCCCCC;
+    margin-left: 22px;
+}
+
+.add-sec {
+    font-size: 0.875rem;
+    color: #FFFFFF;
+    margin-left: 2px;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+.nav-address{
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
