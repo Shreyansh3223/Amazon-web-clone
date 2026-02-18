@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* Navbar */
 .nav-bar {
     height: 60px;
     width: 100%;
@@ -71,7 +72,6 @@
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    background-color: pink;
     width: 620px;
     height: 40px;
     border-radius: 4px;
@@ -148,13 +148,11 @@
 span {
     font-size: 0.75rem;
     font-weight: 400;
-    cursor: pointer;
 }
 
 .nav-second {
     font-size: 0.875rem;
     font-weight: 700;
-    cursor: pointer;
 }
 
 .nav-signin {
@@ -164,6 +162,7 @@ span {
     justify-content: center;   
     align-items: center;     
     padding: 0 8px;
+    cursor: pointer;
 }
 
 /* Box-7 : nav-cart */
@@ -181,4 +180,37 @@ span {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+}
+
+/* Panel */
+.panel {
+    height: 38px;
+    width: 100%;
+    background-color: #222f3d;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* Box-1 : Menu-panel */
+.panel-all {
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+/* Box-2 : Panel Options */
+.panel-ops p{
+    display: inline-block;
+    margin: 0 10px;
+    padding: 8px 10px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.panel-ops {
+    width: 95%;
+    font-size: 0.875rem;
 }
