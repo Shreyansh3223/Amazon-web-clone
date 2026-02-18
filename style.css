@@ -91,6 +91,10 @@
     cursor: pointer;    
 }
 
+.search-select:focus {
+    outline: none;
+}
+
 .search-input {
     width: 100%;
     font-size: 1rem;
@@ -160,4 +164,21 @@ span {
     justify-content: center;   
     align-items: center;     
     padding: 0 8px;
+}
+
+/* Box-7 : nav-cart */
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+    height: 50px;
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
