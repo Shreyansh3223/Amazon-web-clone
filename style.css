@@ -247,3 +247,71 @@ span {
 }
 
 /* Shop Section */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+/* Box-1 : Shop Section */
+.box {
+    width: 23%;
+    height: 400px;
+    background-color: #ffffff;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+
+.box-img {
+    height: 275px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.box-content {
+    margin-left: 1.25rem;
+    margin-right: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: flex-start;
+}
+
+.box-content h2 {
+    font-size: 21px;
+}
+
+.box-content .hover-p {
+    color: #007185;
+    cursor: pointer;
+    font-size: 13px;
+    display: inline;
+}
+
+.box-content .hover-p:hover {
+    color: #04343d;
+}
+
+.box-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    flex-grow: 1; 
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.grid-item p {
+    font-size: 0.75rem;
+    margin-top: 4px;
+}
