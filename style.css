@@ -307,11 +307,35 @@ span {
 .grid-item img {
     width: 100%;
     height: 100px;
-    object-fit: cover;
+    object-fit: contain;
     cursor: pointer;
 }
 
 .grid-item p {
     font-size: 0.75rem;
     margin-top: 4px;
+}
+
+/* Box-4 : shop Section */
+.offer-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.offer-para {
+    height: 24px;
+    width: 80px;
+    background-color: #cc0c39;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 4px 6px;
+    border-radius: 3px;
+}
+
+.offer-p {
+    font-size: 12px;
+    font-weight: 700;
+    color: #cc0c39;   
+    margin: 0;
 }
