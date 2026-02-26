@@ -345,6 +345,8 @@ span {
   width: 97%;
   margin-bottom: 20px;
   display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .box5 h2 {
@@ -360,13 +362,29 @@ span {
   color: #2162a1;
   height: 18px;
   position: relative;
-  top: 9px;
-  left: 35px;
+  top: -22px;
+  left: 350px;
+  width: 61px;
   cursor: pointer;
 }
 
 .box5 a:hover{
     text-decoration: underline;
+}
+
+.img-box5 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 25px;
+  position: relative;
+  bottom: 10px;
+}
+
+.img-box5 img{
+  display: block;
+  height: 12.5rem;
+  cursor: pointer;
 }
 
 /* Footer */
