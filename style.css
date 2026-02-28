@@ -315,7 +315,7 @@ span {
   margin-top: 4px;
 }
 
-/* Box-4 : shop Section */
+/* Box-4 : Shop Section */
 .offer-box {
   display: flex;
   align-items: center;
@@ -339,7 +339,7 @@ span {
   margin: 0;
 }
 
-/* Box-5 : shop Section */
+/* Box-5 : Shop Section */
 .box5 {
   height: 16.5625rem;
   width: 97%;
@@ -388,6 +388,46 @@ span {
 }
 
 /* Footer */
+/* Footer Sign-in */
+.foot-signin {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.foot-signin h2 {
+  font-size: 24px;
+}
+
+.foot-signin button {
+  height: 30px;
+  width: 213px;
+  font-size: 14px;
+  color: #0f1111;
+  font-weight: 200;
+  background-color: #ffce12;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.foot-signin p {
+  font-size: 11px;
+}
+
+.foot-signin p a {
+  color: #2162a1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.foot-signin p a:hover {
+  color: #107be6;
+}
+
 /* Footer panel-1 */
 footer {
   margin-top: 15px;
